@@ -1,0 +1,20 @@
+# Data and logs
+/root/task/data/
+*.log
+*.pid
+*.sql.gz
+*.dump
+*.backup
+.DS_Store
+Thumbs.db
+# Editors/IDEs
+__pycache__/
+.idea/
+.vscode/
+*.swp
+*~
+db.sqlite3
+# Env/conf
+postgresql.conf
+pg_hba.conf
+.env
